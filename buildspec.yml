@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     Commands:
-      - npm run build
+      - npm run buildProduction
 artifacts:
   files:
     - '**/*'
